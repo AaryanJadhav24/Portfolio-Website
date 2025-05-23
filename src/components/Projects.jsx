@@ -10,7 +10,7 @@ export default function Projects() {
         {
             title: "GlucoTrack",
             description: "AI-powered diabetes monitoring app using OpenAI API.",
-            link: "https://github.com/yourusername/glucotrack",
+            link: "https://github.com/AaryanJadhav24/GlucoTrack",
         },
     ];
 
