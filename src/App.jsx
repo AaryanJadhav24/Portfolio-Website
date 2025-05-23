@@ -12,33 +12,19 @@ function App() {
       <Navbar />
       <main>
         <section id="hero" className="min-h-screen">
-          <div className="max-w-6xl mx-auto px-4">
-            <Hero />
-          </div>
+          <Hero />
         </section>
-
-        <section id="about" className="py-16">
-          <div className="max-w-6xl mx-auto px-4">
-            <About />
-          </div>
+        <section id="about" className="py-16 px-4">
+          <About />
         </section>
-
-        <section id="projects" className="py-16 bg-gray-100 dark:bg-gray-800">
-          <div className="max-w-6xl mx-auto px-4">
-            <Projects />
-          </div>
+        <section id="projects" className="py-16 px-4 bg-gray-100 dark:bg-gray-800">
+          <Projects />
         </section>
-
-        <section id="skills" className="py-16">
-          <div className="max-w-6xl mx-auto px-4">
-            <Skills />
-          </div>
+        <section id="skills" className="py-16 px-4">
+          <Skills />
         </section>
-
-        <section id="contact" className="py-16 bg-gray-100 dark:bg-gray-800">
-          <div className="max-w-6xl mx-auto px-4">
-            <Contact />
-          </div>
+        <section id="contact" className="py-16 px-4 bg-gray-100 dark:bg-gray-800">
+          <Contact />
         </section>
       </main>
       <Footer />
